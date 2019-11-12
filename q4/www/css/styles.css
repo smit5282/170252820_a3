@@ -1,0 +1,209 @@
+
+.profilepic {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+
+}
+div.a {
+  font-size: 15px;
+}
+
+div.b {
+  font-size: large;
+}
+
+.username {
+    font-size: 28px;
+    text-align: center;
+    font-family: "Verdana", arial;
+    vertical-align: baseline;
+
+}
+
+.bio {
+  font-size: = 14px;
+  font-family: "Verdana", arial;
+  text-align: center;
+  vertical-align: bottom;
+  }
+/*
+@media only screen and (max-width: 641px) {
+
+
+    h2 {
+        display: none;
+    }
+    .profilepic {
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      vertical-align: middle;
+    }
+  }
+
+
+@media only screen and (max-width:934px) and (min-width: 642px) {
+  .grid-container {
+      display: grid;
+      grid-gap: 10px 10px;
+      grid-template-columns: 50% 50%;
+      background-color: white;
+      padding: 10px;
+      text-align: center;
+      vertical-align: middle;
+      justify-content: center;
+      align-items: center;
+      background-color: red;
+    }
+    .grid-item {
+        height: 293px;
+        width: 293px;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        align-items: center;
+        float: none;
+      }
+      h2 {
+        font-size: = 14px;
+        font-family: = "verdana", sans-serif;
+        text-align: center;
+        }
+      .profilepic {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        vertical-align: middle;
+        float: left;
+        align-items: centre;
+        overflow: auto;
+        }
+  }
+
+
+  .grid-container {
+      display: grid;
+      grid-gap: 10px 10px;
+      grid-template-columns: 33% 33% 33%;
+      background-color: white;
+      padding: 10px;
+      text-align: center;
+      vertical-align: middle;
+      justify-content: center;
+      align-items: center;
+      float: none;
+      background-color: red;
+
+    }
+    .grid-item {
+        height: 293px;
+        width: 293px;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        align-items: center;
+        float: none;
+      }
+    h2 {
+      font-size: = 14px;
+      font-family: = "verdana", sans-serif;
+      text-align: center;
+      }
+      .profilepic {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        vertical-align: middle;
+        float: left;
+        align-items: centre;
+        overflow: auto;
+        background-color: red;
+      }
+*/
+
+.headerLeft {
+  display: flex;
+  float: left;
+  width:30%;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerRight {
+  display: flex;
+  float:right;
+  width:70%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 800px) {
+  .row {
+    max-width: 640px;
+  }
+  .profilepic {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    max-width: 300px;
+  }
+  .headerLeft {
+    display: flex;
+    float: center;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bio {
+    display: none;
+  }
+
+  .profilepic {
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  }
+
+
+}
+
+.row-header {
+  max-width: 960px;
+  display: flex;
+  margin: auto;
+}
+
+.row {
+  width:960px;
+  margin: auto;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(293px, 1fr));
+  justify-content: center;
+  grid-row-gap: 12px;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.column img {
+  width: 293px;
+  height: 293px;
+}

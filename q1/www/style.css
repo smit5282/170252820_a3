@@ -1,0 +1,126 @@
+#banner {
+    background-color: pink;
+    height: 200px;
+    text-align: center;
+
+}
+
+h1 {
+    margin: 0px;
+    line-height: 200px;
+    color: #black;
+    font-family: Georgia, Serif;
+    font-size:7vw;
+
+}
+
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 2vw;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+#navBar {
+    text-align: center;
+
+}
+
+a:link, a:visited, a:hover, a:active {
+  background-color: pink;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Georgia, Serif;
+  font-size:3vw;
+  margin: 25px;
+}
+
+
+.container {
+   position: relative;
+   margin: 10px auto;
+   line-height: 50px;
+   text-align: center;
+   vertical-align: middle;
+
+}
+
+.container .circle1 {
+
+  top: 50%;
+  height: 25vw;
+  width: 25vw;
+  background-image: url('img/vanilla.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border-color: white;
+  text-align: center;
+  display: inline-block;
+  margin: 15px auto;
+}
+
+
+.container .circle2 {
+
+  top: 50%;
+  height: 25vw;
+  width: 25vw;
+  background-image: url('img/chocolate.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border-color: white;
+  text-align: center;
+  display: inline-block;
+  margin: 15px auto;
+}
+
+
+/* </CHECKOUT_CART> */
+
+/* <SHOPPING_CART> */
+#cart-button:link {
+  color: gold !important;
+}
+
+#cart-button:visited {
+  color: purple;
+}
+
+#cart-button:hover {
+  color: black !important;
+}
+
+#cart-button:active {
+  color: red;
+}
+
+.delete-icon {
+  color: pink !important;
+}
+
+.delete-icon:hover {
+  color: black !important;
+}
+/* </SHOPPING_CART> */
+
+a:link {
+  color: #pink;
+  text-decoration: none;
+}
+a:visited {
+  color: #gold;
+  text-decoration: none;
+}
